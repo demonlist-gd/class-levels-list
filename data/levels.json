@@ -4,7 +4,7 @@
     "creator": "DevilMine",
     "verifier": "Speaker2k17",
     "levelId": "146399247",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "video": "https://www.youtube.com/watch?v=-ge89eZ9_5M",
     "requirement": 60,
     "records": [
       { "player": "Speaker2k17", "percent": 100, "video": "" } 
@@ -12,23 +12,24 @@
     ]
   },
   {
-    "name": "Przykładowy Level B",
-    "creator": "TwórcaB",
-    "verifier": "WeryfikatorB",
-    "levelId": "23456789",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Acropolis",
+    "creator": "Zobros",
+    "verifier": "Speaker2k17",
+    "levelId": "5155022",
+    "video": "https://www.youtube.com/watch?v=SSAfuCZ2cks&list=RDSSAfuCZ2cks&start_radio=1",
     "requirement": 55,
     "records": [
-      { "player": "Gracz1", "percent": 100, "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" }
+      { "player": "Speaker2k17", "percent": 100, "video": "" }
     ]
   },
   {
-    "name": "Przykładowy Level C",
-    "creator": "TwórcaC",
-    "verifier": "WeryfikatorC",
-    "levelId": "34567890",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Forest temple",
+    "creator": "Michigun",
+    "verifier": "Kacziom01",
+    "levelId": "11402965",
+    "video": "https://www.youtube.com/watch?v=ZKT1_Mq7hD0",
     "requirement": 50,
-    "records": []
+    "records": [{ "player": "Kacziom01", "percent": 100, "video": "" }
+    ]
   }
 ]
