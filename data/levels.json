@@ -1,35 +1,272 @@
 [
   {
-    "name": "rauchkammer",
-    "creator": "DevilMine",
-    "verifier": "Speaker2k17",
-    "levelId": "146399247",
-    "video": "https://www.youtube.com/watch?v=-ge89eZ9_5M",
+    "name": "Level 1",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "requirement": 60,
-    "records": [
-      { "player": "Speaker2k17", "percent": 100, "video": "" } 
-      
-    ]
+    "records": []
   },
   {
-    "name": "Acropolis",
-    "creator": "Zobros",
-    "verifier": "Speaker2k17",
-    "levelId": "5155022",
-    "video": "https://www.youtube.com/watch?v=SSAfuCZ2cks&list=RDSSAfuCZ2cks&start_radio=1",
-    "requirement": 55,
-    "records": [
-      { "player": "Speaker2k17", "percent": 100, "video": "" }
-    ]
+    "name": "Level 2",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 60,
+    "records": []
   },
   {
-    "name": "Forest temple",
-    "creator": "Michigun",
-    "verifier": "Kacziom01",
-    "levelId": "11402965",
-    "video": "https://www.youtube.com/watch?v=ZKT1_Mq7hD0",
-    "requirement": 50,
-    "records": [{ "player": "Kacziom01", "percent": 100, "video": "" }
-    ]
+    "name": "Level 3",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 60,
+    "records": []
+  },
+  {
+    "name": "Level 4",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 60,
+    "records": []
+  },
+  {
+    "name": "Level 5",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 60,
+    "records": []
+  },
+  {
+    "name": "Level 6",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 60,
+    "records": []
+  },
+  {
+    "name": "Level 7",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 60,
+    "records": []
+  },
+  {
+    "name": "Level 8",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 60,
+    "records": []
+  },
+  {
+    "name": "Level 9",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 60,
+    "records": []
+  },
+  {
+    "name": "Level 10",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 60,
+    "records": []
+  },
+  {
+    "name": "Level 11",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 12",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 13",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 14",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 15",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 16",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 17",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 18",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 19",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 20",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 21",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 22",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 23",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 24",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 25",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 26",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 27",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 28",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 29",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
+  },
+  {
+    "name": "Level 30",
+    "creator": "Twórca",
+    "verifier": "Weryfikator",
+    "levelId": "00000000",
+    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "requirement": 100,
+    "records": []
   }
 ]
