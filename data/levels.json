@@ -6,8 +6,8 @@
     "levelId": "146399247",
     "video": "https://www.youtube.com/watch?v=-ge89eZ9_5M",
     "requirement": 60,
-    "records": [
-      { "player": "Speaker2k17", "percent": 100, "video": "" } 
+    "records": [ { "player": "Speaker2k17", "percent": 100, "video": "" }]
+      
   },
   {
        "name": "Acropolis",
@@ -16,8 +16,8 @@
     "levelId": "5155022",
     "video": "https://www.youtube.com/watch?v=SSAfuCZ2cks&list=RDSSAfuCZ2cks&start_radio=1",
     "requirement": 55,
-    "records": [
-      { "player": "Speaker2k17", "percent": 100, "video": "" }
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
+      
   },
   {
     "name": "Forest temple",
