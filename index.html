@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moja Demonlista</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="brand">MOJA <span>DEMONLISTA</span></a>
+    <nav>
+      <a href="#" data-view="list" class="active">Lista</a>
+      <a href="#" data-view="leaderboard">Ranking graczy</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <!-- Lewy panel: lista wszystkich leveli -->
+    <aside class="sidebar">
+      <input id="search" type="search" placeholder="Szukaj levelu…">
+      <ul id="level-nav"></ul>
+    </aside>
+
+    <!-- Środek: karty leveli albo ranking -->
+    <main id="content"></main>
+
+    <!-- Prawy panel: informacje -->
+    <aside class="info">
+      <section class="panel">
+        <h3>O liście</h3>
+        <p>Ranking najtrudniejszych leveli Geometry Dash. Pozycje 1–75 to Main List, 76–150 Extended List, dalej Legacy.</p>
+      </section>
+      <section class="panel">
+        <h3>Zasady</h3>
+        <p>Rekordy przyjmujemy tylko z nagraniem. Na Main List liczy się postęp od wymaganego %, na Extended tylko 100%.</p>
+      </section>
+    </aside>
+  </div>
+
+  <footer>Ta lista nie jest powiązana z RobTop Games.</footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+// Ile leveli jest w Main List, a ile łącznie z Extended (jak na pointercrate)
+const MAIN_SIZE = 75;
+const EXTENDED_SIZE = 150;
+
+// Punkty za level na danej pozycji (uproszczony wzór: im wyżej, tym więcej)
+function pointsFor(position) {
+  if (position > EXTENDED_SIZE) return 0;
+  return Math.round(350 * Math.pow(0.97, position - 1) * 100) / 100;
+}
+
+// Punkty za rekord: 100% = pełne punkty, niższy % = 1/10 (tylko Main List)
+function recordPoints(position, percent) {
+  const full = pointsFor(position);
+  if (percent === 100) return full;
+  if (position <= MAIN_SIZE) return Math.round(full / 10 * 100) / 100;
+  return 0;
+}
+
+// Wyciąga ID filmu z linku YouTube, żeby pokazać miniaturkę
+function youtubeId(url) {
+  const m = url && url.match(/(?:v=|youtu\.be\/|embed\/)([\w-]{11})/);
+  return m ? m[1] : null;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+let levels = [];
+
+async function init() {
+  const res = await fetch("data/levels.json");
+  levels = await res.json();
+  renderNav();
+  renderList();
+
+  document.getElementById("search").addEventListener("input", e => renderNav(e.target.value));
+  document.querySelectorAll(".topbar nav a").forEach(a =>
+    a.addEventListener("click", e => {
+      e.preventDefault();
+      document.querySelectorAll(".topbar nav a").forEach(x => x.classList.remove("active"));
+      a.classList.add("active");
+      a.dataset.view === "leaderboard" ? renderLeaderboard() : renderList();
+    })
+  );
+}
+
+function sectionOf(pos) {
+  if (pos <= MAIN_SIZE) return "Main List";
+  if (pos <= EXTENDED_SIZE) return "Extended List";
+  return "Legacy List";
+}
+
+// Lewy panel z listą leveli
+function renderNav(filter = "") {
+  const nav = document.getElementById("level-nav");
+  let html = "";
+  let lastSection = "";
+  levels.forEach((lvl, i) => {
+    const pos = i + 1;
+    if (filter && !lvl.name.toLowerCase().includes(filter.toLowerCase())) return;
+    const section = sectionOf(pos);
+    if (section !== lastSection) {
+      html += `<li class="section">${section}</li>`;
+      lastSection = section;
+    }
+    const label = pos <= EXTENDED_SIZE ? `#${pos} – ` : "";
+    html += `<li><a href="#level-${pos}">${label}${escapeHtml(lvl.name)} <i>${escapeHtml(lvl.creator)}</i></a></li>`;
+  });
+  nav.innerHTML = html;
+}
+
+// Środek: karty leveli
+function renderList() {
+  const content = document.getElementById("content");
+  const descriptions = {
+    "Main List": "Najtrudniejsze levele. Rekordy przyjmowane od wymaganego %.",
+    "Extended List": "Levele poza główną częścią. Tylko rekordy 100%.",
+    "Legacy List": "Levele, które wypadły z listy. Bez punktów."
+  };
+  let html = "";
+  let lastSection = "";
+
+  levels.forEach((lvl, i) => {
+    const pos = i + 1;
+    const section = sectionOf(pos);
+    if (section !== lastSection) {
+      html += `<h1 class="section-title">${section}</h1><p class="section-desc">${descriptions[section]}</p>`;
+      lastSection = section;
+    }
+
+    const vid = youtubeId(lvl.video);
+    const thumb = vid ? `https://i.ytimg.com/vi/${vid}/mqdefault.jpg` : "";
+    const pts = pointsFor(pos);
+    let pointsText = "";
+    if (pos <= MAIN_SIZE) pointsText = `${(pts / 10).toFixed(2)} (${lvl.requirement}%) — ${pts.toFixed(2)} (100%) punktów`;
+    else if (pos <= EXTENDED_SIZE) pointsText = `${pts.toFixed(2)} punktów`;
+
+    const records = (lvl.records || [])
+      .slice()
+      .sort((a, b) => b.percent - a.percent)
+      .map(r => `<tr><td>${escapeHtml(r.player)}</td><td>${r.percent}%</td><td><a href="${escapeHtml(r.video)}" target="_blank" rel="noopener">film</a></td></tr>`)
+      .join("");
+
+    html += `
+      <article class="level" id="level-${pos}">
+        <a class="thumb" href="${escapeHtml(lvl.video)}" target="_blank" rel="noopener" style="background-image:url('${thumb}')"></a>
+        <div>
+          <h2><a href="${escapeHtml(lvl.video)}" target="_blank" rel="noopener">${pos <= EXTENDED_SIZE ? `#${pos} – ` : ""}${escapeHtml(lvl.name)}</a></h2>
+          <h3>opublikował ${escapeHtml(lvl.creator)}, zweryfikował ${escapeHtml(lvl.verifier)}</h3>
+          <div class="points">${pointsText}</div>
+          <div class="meta">ID levelu: ${escapeHtml(lvl.levelId)}</div>
+          ${records ? `<details><summary>Rekordy (${lvl.records.length})</summary><table><tr><th>Gracz</th><th>Postęp</th><th>Wideo</th></tr>${records}</table></details>` : ""}
+        </div>
+      </article>`;
+  });
+
+  content.innerHTML = html;
+}
+
+// Ranking graczy liczony z rekordów
+function renderLeaderboard() {
+  const totals = {};
+  levels.forEach((lvl, i) => {
+    (lvl.records || []).forEach(r => {
+      totals[r.player] = (totals[r.player] || 0) + recordPoints(i + 1, r.percent);
+    });
+  });
+  const rows = Object.entries(totals)
+    .sort((a, b) => b[1] - a[1])
+    .map(([p, s], i) => `<tr><td>#${i + 1}</td><td>${escapeHtml(p)}</td><td>${s.toFixed(2)}</td></tr>`)
+    .join("");
+  document.getElementById("content").innerHTML = `
+    <h1 class="section-title">Ranking graczy</h1>
+    <table class="leaderboard"><tr><th>Miejsce</th><th>Gracz</th><th>Punkty</th></tr>${rows || '<tr><td colspan="3">Brak rekordów</td></tr>'}</table>`;
+}
+
+init();

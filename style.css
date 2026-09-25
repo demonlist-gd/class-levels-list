@@ -1,0 +1,155 @@
+:root {
+  --bg: #eef1f5;
+  --card: #ffffff;
+  --text: #1d2330;
+  --muted: #6b7385;
+  --accent: #0b7dbf;
+  --border: #dde2ea;
+  --topbar: #1b1f27;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+a { color: var(--accent); text-decoration: none; }
+
+/* Górny pasek */
+.topbar {
+  background: var(--topbar);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.brand { color: #fff; font-weight: 800; font-size: 20px; letter-spacing: 1px; }
+.brand span { color: #4fc3f7; }
+.topbar nav a { color: #cfd6e2; margin-left: 20px; font-weight: 600; }
+.topbar nav a.active, .topbar nav a:hover { color: #fff; }
+
+/* Układ 3 kolumn jak na pointercrate */
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr 260px;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+/* Lewy panel */
+.sidebar {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px;
+  position: sticky;
+  top: 16px;
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
+  align-self: start;
+}
+#search {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+#level-nav { list-style: none; margin: 0; padding: 0; }
+#level-nav li.section {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 12px 0 4px;
+}
+#level-nav a {
+  display: block;
+  padding: 5px 6px;
+  border-radius: 4px;
+  color: var(--text);
+  font-size: 14px;
+}
+#level-nav a:hover { background: var(--bg); }
+#level-nav a i { color: var(--muted); font-size: 12px; }
+
+/* Karty leveli */
+.section-title {
+  font-size: 22px;
+  margin: 24px 0 4px;
+}
+.section-title:first-child { margin-top: 0; }
+.section-desc { color: var(--muted); margin: 0 0 12px; font-size: 14px; }
+
+.level {
+  display: flex;
+  gap: 18px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 14px;
+  margin-bottom: 14px;
+}
+.level .thumb {
+  flex: 0 0 240px;
+  aspect-ratio: 16 / 9;
+  background: #000 center / cover no-repeat;
+  border-radius: 4px;
+  position: relative;
+}
+.level .thumb::after {
+  content: "▶";
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  font-size: 32px;
+  text-shadow: 0 0 10px #000;
+  opacity: 0.85;
+}
+.level h2 { margin: 0 0 4px; font-size: 22px; }
+.level h2 a { color: var(--text); }
+.level h3 { margin: 0 0 8px; font-size: 14px; color: var(--muted); font-weight: 500; }
+.level .points { font-size: 14px; }
+.level .meta { font-size: 13px; color: var(--muted); margin-top: 6px; }
+.level details { margin-top: 8px; font-size: 14px; }
+.level summary { cursor: pointer; color: var(--accent); }
+.level table { border-collapse: collapse; margin-top: 6px; width: 100%; }
+.level td, .level th { text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--border); }
+
+/* Ranking */
+.leaderboard { width: 100%; background: var(--card); border-collapse: collapse; border-radius: 6px; overflow: hidden; }
+.leaderboard th { background: var(--topbar); color: #fff; }
+.leaderboard th, .leaderboard td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); }
+
+/* Prawy panel */
+.info .panel {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+.info h3 { margin: 0 0 6px; }
+
+footer { text-align: center; color: var(--muted); font-size: 13px; padding: 24px; }
+
+/* Telefon / tablet */
+@media (max-width: 1000px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { position: static; max-height: 300px; }
+  .info { display: none; }
+}
+@media (max-width: 600px) {
+  .level { flex-direction: column; }
+  .level .thumb { flex-basis: auto; width: 100%; }
+}
