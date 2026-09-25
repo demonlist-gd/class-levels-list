@@ -1,14 +1,14 @@
 [
   {
-    "name": "Przykładowy Level A",
-    "creator": "TwórcaA",
-    "verifier": "WeryfikatorA",
-    "levelId": "12345678",
+    "name": "rauchkammer",
+    "creator": "DevilMine",
+    "verifier": "Speaker2k17",
+    "levelId": "146399247",
     "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     "requirement": 60,
     "records": [
-      { "player": "Gracz1", "percent": 100, "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" },
-      { "player": "Gracz2", "percent": 74, "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ" }
+      { "player": "Speaker2k17", "percent": 100, "video": "" } 
+      
     ]
   },
   {
