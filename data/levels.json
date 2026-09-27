@@ -106,49 +106,50 @@
     ]
   },
   {
-    "name": "Level 12",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Megalovania",
+    "creator": "EternaswipVMAX",
+    "verifier": "Speaker2k17",
+    "levelId": "15427055",
+    "video": "https://www.youtube.com/watch?v=BQwJK8Yw7CI",
     "requirement": 100,
-    "records": []
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
-    "name": "Level 13",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Bloodbath Z",
+    "creator": "Zyzyx",
+    "verifier": "Speaker2k17",
+    "levelId": "21761387",
+    "video": "https://www.youtube.com/watch?v=L60crdA1hrc&list=RDL60crdA1hrc&start_radio=1",
     "requirement": 100,
-    "records": []
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
-    "name": "Level 14",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "HeLL",
+    "creator": "Serponge",
+    "verifier": "Speaker2k17",
+    "levelId": "25706351",
+    "video": "https://www.youtube.com/watch?v=gTtsrzNUJM8&list=RDgTtsrzNUJM8&start_radio=1",
     "requirement": 100,
-    "records": []
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
-    "name": "Level 15",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Figures",
+    "creator": "Glittershroom",
+    "verifier": "Speaker2k17",
+    "levelId": "6892453",
+    "video": "https://www.youtube.com/watch?v=wH5e5KhBSSc",
     "requirement": 100,
-    "records": []
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
-    "name": "Level 16",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Skeletal Shenanigans",
+    "creator": "YoReid",
+    "verifier": "Kacziom01",
+    "levelId": "118509879",
+    "video": "https://www.youtube.com/watch?v=mgzTHUKATqo&list=RDmgzTHUKATqo&start_radio=1",
     "requirement": 100,
-    "records": []
+    "records": [{ "player": "Kacziom01", "percent": 100, "video": "" },
+    { "player": "sebtuku", "percent": 100, "video": "" }]
   },
   {
     "name": "Level 17",
