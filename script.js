@@ -1,6 +1,6 @@
 // Ile leveli jest w Main List, a ile łącznie z Extended (jak na pointercrate)
- const MAIN_SIZE = 10;
-   const EXTENDED_SIZE = 30;
+const MAIN_SIZE = 10;
+const EXTENDED_SIZE = 30;
 
 // Punkty za level na danej pozycji (uproszczony wzór: im wyżej, tym więcej)
 function pointsFor(position) {
@@ -121,9 +121,9 @@ function renderList() {
 // Ranking graczy liczony z rekordów
 function renderLeaderboard() {
   const totals = {};
-    levels.forEach((lvl, i) => {
+  levels.forEach((lvl, i) => {
     // Weryfikator dostaje pełne punkty jak za 100%
-    if (lvl.verifier) {
+    if (lvl.verifier && !["Weryfikator", "-", "?"].includes(lvl.verifier)) {
       totals[lvl.verifier] = (totals[lvl.verifier] || 0) + pointsFor(i + 1);
     }
     (lvl.records || []).forEach(r => {
