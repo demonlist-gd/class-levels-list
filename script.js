@@ -121,8 +121,13 @@ function renderList() {
 // Ranking graczy liczony z rekordów
 function renderLeaderboard() {
   const totals = {};
-  levels.forEach((lvl, i) => {
+    levels.forEach((lvl, i) => {
+    // Weryfikator dostaje pełne punkty jak za 100%
+    if (lvl.verifier) {
+      totals[lvl.verifier] = (totals[lvl.verifier] || 0) + pointsFor(i + 1);
+    }
     (lvl.records || []).forEach(r => {
+      if (r.player === lvl.verifier) return; // nie licz dwa razy tego samego levelu
       totals[r.player] = (totals[r.player] || 0) + recordPoints(i + 1, r.percent);
     });
   });
