@@ -6,7 +6,7 @@
     "levelId": "146399247",
     "video": "https://www.youtube.com/watch?v=-ge89eZ9_5M",
     "requirement": 60,
-    "records": []
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
     "name": "Acropolis",
@@ -15,7 +15,7 @@
     "levelId": "5155022",
     "video": "https://www.youtube.com/watch?v=SSAfuCZ2cks&list=RDSSAfuCZ2cks&start_radio=1",
     "requirement": 60,
-    "records": []
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
     "name": "Forest temple",
@@ -24,7 +24,8 @@
     "levelId": "11402965",
     "video": "https://www.youtube.com/watch?v=ZKT1_Mq7hD0",
     "requirement": 60,
-    "records": []
+    "records": [{ "player": "Kacziom01", "percent": 100, "video": "" }
+    ]
   },
   {
     "name": "Future Funk",
@@ -33,7 +34,8 @@
     "levelId": "44062068",
     "video": "https://www.youtube.com/watch?v=2CZM4Oi_hdA&list=RD2CZM4Oi_hdA&start_radio=1",
     "requirement": 60,
-    "records": []
+    "records": [{ "player": "Kacziom01", "percent": 100, "video": "" }
+    ]
   },
   {
     "name": "Astronaut 13",
@@ -42,7 +44,7 @@
     "levelId": "6988264",
     "video": "https://www.youtube.com/watch?v=K6YLo8seoUc&list=RDK6YLo8seoUc&start_radio=1",
     "requirement": 60,
-    "records": []
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
     "name": "Fairydust",
@@ -51,7 +53,7 @@
     "levelId": "5310094",
     "video": "https://www.youtube.com/watch?v=UZ2b1dih2_U&list=RDUZ2b1dih2_U&start_radio=1",
     "requirement": 60,
-    "records": []
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
     "name": "Cataclysmic drive",
@@ -60,7 +62,7 @@
     "levelId": "7573669",
     "video": "https://www.youtube.com/watch?v=_284rhFws7U",
     "requirement": 60,
-    "records": []
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
     "name": "Forsaken neon",
@@ -69,7 +71,7 @@
     "levelId": "6300721",
     "video": "https://www.youtube.com/watch?v=ARjiOD0udsY&list=RDARjiOD0udsY&start_radio=1",
     "requirement": 60,
-    "records": []
+    "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
     "name": "Nine circles",
