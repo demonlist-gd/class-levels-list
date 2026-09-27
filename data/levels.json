@@ -45,49 +45,54 @@
     "records": []
   },
   {
-    "name": "Level 6",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Fairydust",
+    "creator": "mkComic",
+    "verifier": "Speaker2k17",
+    "levelId": "5310094",
+    "video": "https://www.youtube.com/watch?v=UZ2b1dih2_U&list=RDUZ2b1dih2_U&start_radio=1",
     "requirement": 60,
     "records": []
   },
   {
-    "name": "Level 7",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Cataclysmic drive",
+    "creator": "TheRealArtee",
+    "verifier": "Speaker2k17",
+    "levelId": "7573669",
+    "video": "https://www.youtube.com/watch?v=_284rhFws7U",
     "requirement": 60,
     "records": []
   },
   {
-    "name": "Level 8",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Forsaken neon",
+    "creator": "Zobros",
+    "verifier": "Speaker2k17",
+    "levelId": "6300721",
+    "video": "https://www.youtube.com/watch?v=ARjiOD0udsY&list=RDARjiOD0udsY&start_radio=1",
     "requirement": 60,
     "records": []
   },
   {
-    "name": "Level 9",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Nine circles",
+    "creator": "Zobros",
+    "verifier": "sebkutuku",
+    "levelId": "4284013",
+    "video": "https://www.youtube.com/watch?v=dOdPoU1ncOc&list=RDdOdPoU1ncOc&start_radio=1",
     "requirement": 60,
-    "records": []
+    "records": [{ "player": "Kacziom01", "percent": 100, "video": "" },
+      { "player": "Speaker2k17", "percent": 100, "video": "" }
+    ]
   },
   {
-    "name": "Level 10",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "name": "Troll Madness",
+    "creator": "zyphur",
+    "verifier": "Kacziom01",
+    "levelId": "114532158",
+    "video": "https://www.youtube.com/watch?v=zK3c_RDr-88",
     "requirement": 60,
-    "records": []
+    "records": [{ "player": "Kacziom01", "percent": 100, "video": "" },
+      { "player": "Cru5", "percent": 100, "video": "" }
+    
+    ]
   },
   {
     "name": "Level 11",
