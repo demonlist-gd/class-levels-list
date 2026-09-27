@@ -18,6 +18,16 @@
     "records": [{ "player": "Speaker2k17", "percent": 100, "video": "" }]
   },
   {
+    "name": "Denouement",
+    "creator": "Synactive GD",
+    "verifier": "Kacziom01",
+    "levelId": "60619762",
+    "video": "https://www.youtube.com/watch?v=ziHvsAriE3s",
+    "requirement": 60,
+    "records": [{ "player": "Kacziom01", "percent": 100, "video": "" }
+    ]
+  },
+  {
     "name": "Forest temple",
     "creator": "Michigun",
     "verifier": "Kacziom01",
@@ -90,20 +100,10 @@
     "verifier": "Kacziom01",
     "levelId": "114532158",
     "video": "https://www.youtube.com/watch?v=zK3c_RDr-88",
-    "requirement": 60,
+    "requirement": 100,
     "records": [{ "player": "Kacziom01", "percent": 100, "video": "" },
       { "player": "Cru5", "percent": 100, "video": "" }
-    
     ]
-  },
-  {
-    "name": "Level 11",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "requirement": 100,
-    "records": []
   },
   {
     "name": "Level 12",
