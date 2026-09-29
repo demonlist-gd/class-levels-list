@@ -38,6 +38,16 @@
     ]
   },
   {
+    "name": "Forest temple",
+    "creator": "Michigun",
+    "verifier": "Kacziom01",
+    "levelId": "11402965",
+    "video": "https://www.youtube.com/watch?v=ZKT1_Mq7hD0",
+    "requirement": 60,
+    "records": [{ "player": "Kacziom01", "percent": 100, "video": "" }
+    ]
+  },
+  {
     "name": "Future Funk",
     "creator": "JonathanGD",
     "verifier": "Kacziom01",
@@ -150,15 +160,6 @@
     "requirement": 100,
     "records": [{ "player": "Kacziom01", "percent": 100, "video": "" },
     { "player": "sebtuku", "percent": 100, "video": "" }]
-  },
-  {
-    "name": "Level 17",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "requirement": 100,
-    "records": []
   },
   {
     "name": "Level 18",
