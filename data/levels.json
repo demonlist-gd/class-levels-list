@@ -100,8 +100,9 @@
     "levelId": "4284013",
     "video": "https://www.youtube.com/watch?v=dOdPoU1ncOc&list=RDdOdPoU1ncOc&start_radio=1",
     "requirement": 60,
-    "records": [{ "player": "Kacziom01", "percent": 100, "video": "" },
-      { "player": "Speaker2k17", "percent": 100, "video": "" }
+    "records": [{ "player": "sebtuku", "percent": 100, "video": "" },
+      { "player": "kacziom01", "percent": 100, "video": "" },
+      { "player": "speaker2k17", "percent": 100, "video": "" }
     ]
   },
   {
