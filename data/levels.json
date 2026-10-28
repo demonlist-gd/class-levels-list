@@ -24,7 +24,8 @@
     "levelId": "60619762",
     "video": "https://www.youtube.com/watch?v=ziHvsAriE3s",
     "requirement": 60,
-    "records": [{ "player": "kacziom01", "percent": 100, "video": "" }
+    "records": [{ "player": "kacziom01", "percent": 100, "video": "" },
+      { "player": "speaker2k17", "percent": 100, "video": "" }
     ]
   },
   {
