@@ -1,6 +1,15 @@
 [
   {
-    "name": "rauchkammer",
+    "name": "Cataclysm",
+    "creator": "Ggb0y",
+    "verifier": "kacziom01",
+    "levelId": "3979721",
+    "video": "https://medal.tv/games/geometry-dash/clips/nXQ51P40Dl0xYr2SZ?invite=cr-MSxQc3QsNzIxMzY4MjE4",
+    "requirement": 60,
+    "records": [{ "player": "kacziom01", "percent": 100, "video": "https://medal.tv/games/geometry-dash/clips/nXQ51P40Dl0xYr2SZ?invite=cr-MSxQc3QsNzIxMzY4MjE4" }]
+  },
+  {
+    "name": "Rauchkammer",
     "creator": "DevilMine",
     "verifier": "speaker2k17",
     "levelId": "146399247",
@@ -20,7 +29,7 @@
   {
     "name": "Denouement",
     "creator": "Synactive GD",
-    "verifier": "Kacziom01",
+    "verifier": "kacziom01",
     "levelId": "60619762",
     "video": "https://www.youtube.com/watch?v=ziHvsAriE3s",
     "requirement": 60,
@@ -57,6 +66,15 @@
     "requirement": 60,
     "records": [{ "player": "kacziom01", "percent": 100, "video": "" }
     ]
+  },
+  {
+    "name": "Pan Tadeusz",
+    "creator": "owlyy",
+    "verifier": "speaker2k17",
+    "levelId": "113422319",
+    "video": "https://medal.tv/pl/games/geometry-dash/clips/nXNsqkJ19LAPLOReU?invite=cr-MSxpckYsNzAxNDQwNTUw1",
+    "requirement": 60,
+    "records": [{ "player": "speaker2k17", "percent": 100, "video": "https://medal.tv/pl/games/geometry-dash/clips/nXNsqkJ19LAPLOReU?invite=cr-MSxpckYsNzAxNDQwNTUw" }]
   },
   {
     "name": "Astronaut 13",
@@ -163,24 +181,6 @@
     "requirement": 100,
     "records": [{ "player": "kacziom01", "percent": 100, "video": "" },
     { "player": "sebtuku", "percent": 100, "video": "" }]
-  },
-  {
-    "name": "Level 18",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "requirement": 100,
-    "records": []
-  },
-  {
-    "name": "Level 19",
-    "creator": "Twórca",
-    "verifier": "Weryfikator",
-    "levelId": "00000000",
-    "video": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "requirement": 100,
-    "records": []
   },
   {
     "name": "Level 20",
